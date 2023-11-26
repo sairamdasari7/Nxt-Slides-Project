@@ -1,0 +1,55 @@
+.add-button {
+    background-color: #dbeafe;
+    border-width: 0;
+    color: #0f172a;
+    font-family: 'Bree Serif';
+    font-size: 15px;
+    padding: 8px 15px;
+    margin: 15px 10px 15px 25px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .plus-symbol {
+    width: 11px;
+    margin-right: 8px;
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .add-button {
+      font-size: 14px;
+      margin: 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    .add-button {
+      font-size: 16px;
+      margin: 12px;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    .add-button {
+      font-size: 18px;
+      margin: 15px 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .add-button {
+      font-size: 20px;
+      margin: 18px 25px;
+    }
+  }
+  
+  @media only screen and (min-width: 1201px) {
+    .add-button {
+      font-size: 22px;
+      margin: 20px 30px;
+    }
+  }
+  
